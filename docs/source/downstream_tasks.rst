@@ -147,7 +147,8 @@ being the capital of France::
     import json
     import h5py
     import torch
-    from torchbiggraph.model import ComplexDiagonalDynamicOperator, DotComparator
+    from torchbiggraph.model import DotComparator
+    from torchbiggraph.operators import ComplexDiagonalDynamicOperator
 
     # Load count of dynamic relations
     with open("data/FB15k/dynamic_rel_count.txt", "rt") as tf:
